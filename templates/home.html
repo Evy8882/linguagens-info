@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1 id="titulo">Homepage</h1>
+    <section class="quadro" id="homePage">
+        <div>
+            <h4>Linguagens de programação:</h4>
+            clique em uma das Linguagens abaixo para ver ver Informações sobre ela:
+        </div>
+        <br>
+        <br>
+        <div id="icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" onclick="goToPyInfo()">
+        <img src="data:image/png;base64,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" onclick="goToJsInfo()">
+        <img src="https://blog.geekhunter.com.br/wp-content/uploads/2020/07/pngwing.com_.png" onclick="goToJvInfo()">
+        <img src="data:image/png;base64,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" onclick="goToTsInfo()">
+        </div>
+    </section>
+    <footer>
+        Site criado com o unico objetivo de aprendizado, todos os textos foram retirados da Wikipedia: <br> https://pt.wikipedia.org
+    </footer>
+    <script src="/static/index.js"></script>
+</body>
+</html>

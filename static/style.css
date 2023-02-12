@@ -1,0 +1,36 @@
+body{
+    background: rgb(17, 17, 17);
+    color:white;
+    text-align: center;
+}
+#titulo{
+    text-align: center;
+    font: normal 30pt arial;
+}
+.quadro{
+    background: white;
+    color: black;
+    padding: 9px;
+    width: 580px;
+    margin: auto;
+    border-radius: 6px;
+    text-align: left;
+}
+img{
+    height: 128px;
+    top: 50%;
+}
+#imagem{
+    text-align: center;
+    background: rgb(233, 233, 233);
+    width: 580px;
+    border-radius: 40px;
+    position: relative;
+}
+
+#homePage{
+    font: normal 10pt arial
+}
+#icon{
+    text-align: center;
+}
